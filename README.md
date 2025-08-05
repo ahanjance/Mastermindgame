@@ -18,14 +18,12 @@ A command-line implementation of the classic Mastermind code-breaking game built
 
 ### Quick Start
 1. Clone the repository:
-   git clone https://github.com/yourusername/swift-mastermind-api.git
-   cd swift-mastermind-api
 
 2. Compile the game:
-   swiftc mastermind_api.swift -o mastermind_api
+   swiftc mastermind_game.swift -o mastermind_game
 
 3. Run the game:
-   ./mastermind_api
+   ./mastermind_game
 
 4. Play:
    - Enter 4-digit guesses (digits 1-6)
@@ -33,7 +31,7 @@ A command-line implementation of the classic Mastermind code-breaking game built
    - Follow on-screen instructions
 
 ### Alternative (Direct Run)
-swift mastermind_api.swift
+swift mastermind_game.swift
 
 ## Tech Stack
 - Language: Swift
